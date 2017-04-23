@@ -4,10 +4,10 @@
 # Rudolf <rudolf.maurer@googlemail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-16 20:46+0100\n"
-"PO-Revision-Date: 2017-04-23 15:32+0200\n"
+"PO-Revision-Date: 2017-04-23 16:04+0200\n"
 "Last-Translator: Rudolf <rudolf.maurer@googlemail.com>\n"
 "Language-Team: not a native speaker...\n"
 "Language: nb\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 2.0.1\n"
 
 #: ../about.cgi:29
 msgid "This Application is powered by %{Dudle}."
@@ -27,12 +27,11 @@ msgstr "Lisens"
 
 #: ../about.cgi:32
 msgid ""
-"The sourcecode of this application is available under the terms of <a href='ht"
-"tp://www.fsf.org/licensing/licenses/agpl-3.0.html'>AGPL Version 3</a>"
+"The sourcecode of this application is available under the terms of <a href='http://"
+"www.fsf.org/licensing/licenses/agpl-3.0.html'>AGPL Version 3</a>"
 msgstr ""
 "Kildekoden til denne applikasjonen er tilgjengelig under betingelsene til <a "
-"href='http://www.fsf.org/licensing/licenses/agpl-3.0.html'>AGPL Versjon "
-"3</a>"
+"href='http://www.fsf.org/licensing/licenses/agpl-3.0.html'>AGPL Versjon 3</a>"
 
 #: ../about.cgi:33
 msgid "The Sourcecode of this application can be found %{here}."
@@ -40,8 +39,8 @@ msgstr "Kildekoden for denne applikasjonen finnes %{her}."
 
 #: ../about.cgi:35
 msgid ""
-"Write me an e-mail if you found a bug, have something which disturbes you or a"
-"ny other feedback."
+"Write me an e-mail if you found a bug, have something which disturbes you or any "
+"other feedback."
 msgstr ""
 "Send meg en epost i tilfelle du har funnet feil, noe plager deg eller for en "
 "generell tilbakemelding."
@@ -60,8 +59,7 @@ msgstr "gjenta"
 
 #: ../access_control.rb:114
 msgid ""
-"You have to remove the participant user before you can remove the administrato"
-"r."
+"You have to remove the participant user before you can remove the administrator."
 msgstr "For a kunne fjerne administrator så trenger du å fjerne deltaker først."
 
 #: ../access_control.rb:117 ../customize.cgi:119 ../customize.rb:119
@@ -69,8 +67,7 @@ msgstr "For a kunne fjerne administrator så trenger du å fjerne deltaker førs
 msgid "Delete"
 msgstr "Slett"
 
-#: ../access_control.rb:121 ../customize.cgi:116 ../customize.rb:116
-#: ../poll.rb:300
+#: ../access_control.rb:121 ../customize.cgi:116 ../customize.rb:116 ../poll.rb:300
 msgid "Save"
 msgstr "Lagre"
 
@@ -108,8 +105,7 @@ msgstr "Aktiv"
 
 #: ../access_control.rb:189
 msgid ""
-"You have to remove all users before you can deactivate the access control sett"
-"ings."
+"You have to remove all users before you can deactivate the access control settings."
 msgstr "Alle brukere må fjernes før adgangsinstillinger kan slås av."
 
 #: ../access_control.rb:193
@@ -118,13 +114,12 @@ msgstr "Du blir spurt om passordet du har angitt her når du trykker på lagre!"
 
 #: ../access_control.rb:196
 msgid ""
-"The user ‘admin’ has access to the vote as well as the configuration interface"
-"."
-msgstr "Bruker 'admin' har adgang til avstemmingen og instillinger."
+"The user ‘admin’ has access to the vote as well as the configuration interface."
+msgstr "Bruker 'admin' har adgang til avstemningen og instillinger."
 
 #: ../access_control.rb:202
 msgid "The user ‘participant’ has only access to the vote interface."
-msgstr "Bruker 'deltaker' har bare adgang til selve avstemmingen."
+msgstr "Bruker 'deltaker' har bare adgang til selve avstemningen."
 
 #: ../access_control.rb:208
 msgid "Access control:"
@@ -136,7 +131,7 @@ msgstr "Authorisering kreves"
 
 #: ../authorization_required.cgi:39
 msgid "The configuration of this Poll is protected by password!"
-msgstr "Innstillinger for denne avstemmingen er beskyttet med passord!"
+msgstr "Innstillinger for denne avstemningen er beskyttet med passord!"
 
 #: ../authorization_required.cgi:41
 msgid "This Poll is protected by password!"
@@ -148,7 +143,7 @@ msgstr "For å gå videre må du angi passord for bruker %{user}."
 
 #: ../authorization_required.cgi:53 ../not_found.cgi:36
 msgid "Return to dudle home and Schedule a new Poll"
-msgstr "Tilbake til dudle startside og lag et nytt avstemming"
+msgstr "Tilbake til dudle startside og lag et nytt avstemning"
 
 #: ../authorization_required.cgi:54
 msgid "You have to authorize yourself in order to access this page!"
@@ -160,18 +155,16 @@ msgstr "Planlegg en begivenhet"
 
 #: ../config.rb:49
 msgid "Normal Poll"
-msgstr "Vanlig avstemming"
+msgstr "Vanlig avstemning"
 
 #: ../config.rb:53
 msgid "End-to-End encrypted/authenticated Poll (see the Password in the Comments)"
 msgstr ""
-"Ende-til-ende kryptert/authentifisert avstemming (see passord under "
-"kommentarene)"
+"Ende-til-ende kryptert/authentifisert avstemning (see passord under kommentarene)"
 
 #: ../config.rb:57
 msgid "End-to-End encrypted Poll, where only the administrator is able to read votes"
-msgstr ""
-"Ende-til-ende krytpert avstemming der bare administrator kan se stemmene"
+msgstr "Ende-til-ende krytpert avstemning der bare administrator kan se stemmene"
 
 #: ../config.rb:61
 msgid "Test for several PGP-authenticated votes"
@@ -239,11 +232,11 @@ msgstr "Jeg er klar over konsekvensene."
 
 #: ../delete_poll.rb:33
 msgid "Please delete this poll."
-msgstr "Vennligst slett dette avstemming."
+msgstr "Vennligst slett dette avstemning."
 
 #: ../delete_poll.rb:42
 msgid "Example polls can not be deleted."
-msgstr "Eksempel avstemminger kan ikke slettes."
+msgstr "Eksempel avstemninger kan ikke slettes."
 
 #: ../delete_poll.rb:43
 msgid "You should never see this text."
@@ -255,13 +248,13 @@ msgstr "Avstemming er bekreftet slettet!"
 
 #: ../delete_poll.rb:57
 msgid ""
-"If this was done by accident, please contact the administrator of the system. "
-"The poll can be recovered for an indeterminate amount of time, it could alread"
-"y be too late."
+"If this was done by accident, please contact the administrator of the system. The "
+"poll can be recovered for an indeterminate amount of time, it could already be too "
+"late."
 msgstr ""
 "Hvis dette har skjedd ved et uhell, ta kontakt med administrator for denne "
-"tjeneren. Avstemmingen kan bli hentet tilbake i et bestemt tidsrom, men det "
-"kan også være for sent allerede."
+"tjeneren. Avstemmingen kan bli hentet tilbake i et bestemt tidsrom, men det kan "
+"også være for sent allerede."
 
 #: ../delete_poll.rb:59
 msgid "You can now"
@@ -269,7 +262,7 @@ msgstr "Du kan nå"
 
 #: ../delete_poll.rb:60
 msgid "Return to dudle home and schedule a new poll"
-msgstr "Tilbake til dudle startside og lag et nytt avstemming"
+msgstr "Tilbake til dudle startside og lag et nytt avstemning"
 
 #: ../delete_poll.rb:61
 msgid "Browse Wikipedia"
@@ -281,7 +274,7 @@ msgstr "Søk på nettet"
 
 #: ../delete_poll.rb:88
 msgid "To delete the poll, you have to type:"
-msgstr "For å kunne slette denne avstemmingen, tast:"
+msgstr "For å kunne slette denne avstemningen, tast:"
 
 #: ../delete_poll.rb:96
 msgid "but you typed:"
@@ -289,11 +282,11 @@ msgstr "men du tastet:"
 
 #: ../delete_poll.rb:108
 msgid "Delete this Poll"
-msgstr "Slett denne avstemmingen"
+msgstr "Slett denne avstemningen"
 
 #: ../delete_poll.rb:109
 msgid "You want to delete the poll named"
-msgstr "Du vil slette avstemmingen med navn"
+msgstr "Du vil slette avstemningen med navn"
 
 #: ../delete_poll.rb:110
 msgid "This is an irreversible action!"
@@ -301,11 +294,11 @@ msgstr "Dette er irreversibel og kan ikke omgjøres!"
 
 #: ../delete_poll.rb:111
 msgid ""
-"If you are sure that you want to permanently remove this poll, please type “%{"
-"question}” into the form."
+"If you are sure that you want to permanently remove this poll, please type "
+"“%{question}” into the form."
 msgstr ""
-"Hvis du er sikre på å slette denne avstemmingen permanent, vennligst tast “%"
-"{question}” i feltet."
+"Hvis du er sikre på å slette denne avstemningen permanent, vennligst tast "
+"“%{question}” i feltet."
 
 #: ../dudle.rb:73
 msgid "Home"
@@ -337,7 +330,7 @@ msgstr "Oversikt"
 
 #: ../dudle.rb:86
 msgid "Delete Poll"
-msgstr "Slett avstemming"
+msgstr "Slett avstemning"
 
 #: ../dudle.rb:89 ../example.cgi:67
 msgid "Examples"
@@ -428,12 +421,12 @@ msgstr "Feil i dudle"
 
 #: ../error.cgi:53
 msgid ""
-"An error occured while executing dudle.<br/>Please send an error report, inclu"
-"ding your browser, operating system, and what you did to %{admin}."
+"An error occured while executing dudle.<br/>Please send an error report, including "
+"your browser, operating system, and what you did to %{admin}."
 msgstr ""
-"Et feil har oppstått i dudle. <br/> Vennligst rapporter den, inkludert "
-"netleseren og operativsystem du bruker sammen med en beskrivelse av det du "
-"prøvde å gjøre til %{admin}."
+"Et feil har oppstått i dudle. <br/> Vennligst rapporter den, inkludert netleseren "
+"og operativsystem du bruker sammen med en beskrivelse av det du prøvde å gjøre til "
+"%{admin}."
 
 #: ../error.cgi:56
 msgid "Please include the following as well:"
@@ -445,11 +438,11 @@ msgstr "Eksempel ble ikke funnet: %{example}"
 
 #: ../example.cgi:68
 msgid ""
-"If you want to play with the application, you may want to take a look at these"
-" example polls:"
+"If you want to play with the application, you may want to take a look at these "
+"example polls:"
 msgstr ""
 "Hvis du vil prøve ut hvordan det gjøres, så kan du se på disse eksempel "
-"avstemminger:"
+"avstemninger:"
 
 #: ../history.rb:28
 msgid "Poll of Version %{revisionnumber}"
@@ -457,7 +450,7 @@ msgstr "Avstemming i versjon %{revisionnumber}"
 
 #: ../history.rb:32
 msgid "Current Poll (Version %{revisionnumber})"
-msgstr "Nåværende avstemming (Versjon %{revisionnumber})"
+msgstr "Nåværende avstemning (Versjon %{revisionnumber})"
 
 #: ../index.cgi:32
 msgid "Please enter a descriptive title."
@@ -469,7 +462,7 @@ msgstr "Tilpasset adresse kan bare inneholde tegn, tall og bindestrek."
 
 #: ../index.cgi:50
 msgid "A Poll with this address already exists."
-msgstr "En annen avstemming med denne adressen finnes allerede."
+msgstr "En annen avstemning med denne adressen finnes allerede."
 
 #: ../index.cgi:68
 msgid "The poll was created successfully. The link to your new poll is: %{link}"
@@ -481,7 +474,7 @@ msgstr "Gå vekk."
 
 #: ../index.cgi:84
 msgid "Create New Poll"
-msgstr "Legg til et nytt avstemming"
+msgstr "Legg til et nytt avstemning"
 
 #: ../index.cgi:86
 msgid "Title"
@@ -497,7 +490,7 @@ msgstr "Planlegg en hendelse (f.eks. planlegg et møte)"
 
 #: ../index.cgi:89
 msgid "Normal Poll (e.&thinsp;g., vote for what is the best coffee)"
-msgstr "Vanlig avstemming (f.eks. avstem over hvilken kaffe er best)"
+msgstr "Vanlig avstemning (f.eks. avstem over hvilken kaffe er best)"
 
 #: ../index.cgi:90
 msgid "Custom address (optional)"
@@ -533,8 +526,8 @@ msgstr "Denne siden blir vedlikeholdt for tiden!"
 
 #: ../maintenance.cgi:39
 msgid ""
-"You should not browse to this file directly. Please create a file named \"maint"
-"enance.html\" to enable the maintenance mode."
+"You should not browse to this file directly. Please create a file named "
+"\"maintenance.html\" to enable the maintenance mode."
 msgstr ""
 "Du skal ikke gå til dette fil direkte. Vennligst opprett et fil som heter "
 "\"maintenance.html\" for å aktivere modus for vedlikehold."
@@ -545,28 +538,28 @@ msgstr "Avstemming ikke funnet"
 
 #: ../not_found.cgi:31
 msgid "The requested Poll was not found."
-msgstr "Etterspurt avstemming ble ikke funnet."
+msgstr "Etterspurt avstemning ble ikke funnet."
 
 #: ../not_found.cgi:32
 msgid "There are several reasons, why a Poll is deleted:"
-msgstr "Det kan være flere årsaker hvorfor en avstemming kan ha bli slettet:"
+msgstr "Det kan være flere årsaker hvorfor en avstemning kan ha bli slettet:"
 
 #: ../not_found.cgi:33
 msgid "Somebody clicked on “Delete Poll” and deleted the poll manually."
-msgstr "Noen trykte  på \"Slett avstemming\" og slettet avstemmingen manuelt."
+msgstr "Noen trykte  på \"Slett avstemning\" og slettet avstemningen manuelt."
 
 #: ../not_found.cgi:34
 msgid ""
-"The Poll was deleted by the administrator because it was not accessed for a lo"
-"ng time."
+"The Poll was deleted by the administrator because it was not accessed for a long "
+"time."
 msgstr ""
-"Avstemmingen ble slette av administrator fordi den har ikke blitt sett på i "
-"lang tid."
+"Avstemmingen ble slette av administrator fordi den har ikke blitt sett på i lang "
+"tid."
 
 #: ../not_found.cgi:35
 msgid ""
-"If you think, the deletion was done by error, please contact the adminsistrato"
-"r of the system."
+"If you think, the deletion was done by error, please contact the adminsistrator of "
+"the system."
 msgstr ""
 "Hvis du tror sletting skjedde var feilaktig, vennligst ta kontakt med "
 "administrator for denne tjenere."
@@ -585,11 +578,11 @@ msgstr "Sende lenke via epost..."
 
 #: ../overview.rb:35
 msgid "Visit the poll yourself:"
-msgstr "Gå selv til avstemmingen:"
+msgstr "Gå selv til avstemningen:"
 
 #: ../overview.rb:36
 msgid "Link to dudle poll about %{polltitle}"
-msgstr "Lenke til dudle avstemming om %{polltitle}"
+msgstr "Lenke til dudle avstemning om %{polltitle}"
 
 #: ../participate.rb:59
 msgid "The changes were saved, you should be redirected to %{link}."
@@ -721,19 +714,19 @@ msgstr "Forhåndsvisning"
 
 #: ../pollhead.rb:103
 msgid ""
-"Enter all Options (columns), you want to ask the participants of the poll. The"
-" participants will state one vote for every option you give here separately."
+"Enter all Options (columns), you want to ask the participants of the poll. The "
+"participants will state one vote for every option you give here separately."
 msgstr ""
-"Legg til alle valg (kolonner) du vil spørre deltakerne om. Deltakerne vil gi "
-"et separat svar for en hver valg du har lagt til her."
+"Legg til alle valg (kolonner) du vil spørre deltakerne om. Deltakerne vil gi et "
+"separat svar for en hver valg du har lagt til her."
 
 #: ../timepollhead.rb:113
 msgid ""
-"To add some time different to the default ones, please enter some string here "
-"(e.&thinsp;g., 09:30, morning, afternoon)."
+"To add some time different to the default ones, please enter some string here (e."
+"&thinsp;g., 09:30, morning, afternoon)."
 msgstr ""
-"For å legge til et klokkeslett som er annerledes en standard, vennligst tast "
-"tekst her (f.eks. 09:30, morgen, ettermiddag)."
+"For å legge til et klokkeslett som er annerledes en standard, vennligst tast tekst "
+"her (f.eks. 09:30, morgen, ettermiddag)."
 
 #: ../timepollhead.rb:119
 msgid "This Time was already chosen."
